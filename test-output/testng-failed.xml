@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="pincode" value="628502"/>
+    <parameter name="EmailID" value="sethulaskhmib21@gmail.com"/>
+    <parameter name="password" value="9962373310"/>
+    <parameter name="mobNo" value="9962373310"/>
+    <parameter name="prtName" value="fasttrack watch"/>
+    <parameter name="Address" value="5/255A EB colony"/>
+    <parameter name="name" value="sethu"/>
+    <parameter name="locality" value="kovilpatti"/>
+    <parameter name="City" value="Kovilpatti"/>
+    <parameter name="state" value="Tamil Nadu"/>
+    <parameter name="email" value="7904692285"/>
+    <classes>
+      <class name="Exce.flip.FlipkartMain">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="tc2" invocation-numbers="0"/>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- Exce.flip.FlipkartMain -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
